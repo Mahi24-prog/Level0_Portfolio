@@ -16,14 +16,27 @@ body{
     --dark-gray: #6b7280;
 }
 
+/* Links  */
+.list-item-inline{
+    display: inline;
+    margin: 2rem;
+}
+
+.list-item-inline a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar  */
 .nav{
     background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    padding: 1.5rem;
 }
 
 .container{
-    padding: 1.5rem;
-    margin: 0rem 10rem;
-    border-bottom-left-radius: 1rem;
+    margin: 0rem 8rem;
+    
 }
 
 .nav-brand{
@@ -40,12 +53,101 @@ body{
     list-style: none;
 }
 
-.nav-item{
-  display: inline;
-  margin: 0 1.5rem;
-}
-
 
 .nav-items .active{
     font-weight: bold;
+}
+
+/* header Section */
+
+.header{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.header img{
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-heading{
+    text-align: center;
+    color: var(--dark-gray);
+    margin: 2rem;
+}
+
+.header .header-heading span{
+    color: var(--primary-color);
+}
+
+/* Section commn CSS*/
+.sec-container{
+    padding: 3rem;
+    margin: 3rem;
+    
+    border-radius: 1rem;
+    margin: 2rem 8rem;
+}
+
+.grey-back{
+    background-color: var(--off-white);
+}
+
+.section-header{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.section-cont{
+    text-align: center;
+}
+
+
+/* Buttons */
+
+.link-primary{
+    max-width: 140px;
+    padding: 0.6rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.link-secondary{
+    max-width: 140px;
+    padding: 0.6rem 1rem;
+    background-color: var(--off-white);
+    color:var(--primary-color);
+    margin: 1rem auto;
+    border: solid 1px var(--primary-color);
+    border-radius: 2rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* Footer  */
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.footer-header{
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+
+
+.social-links{
+    text-align: center;
 }
