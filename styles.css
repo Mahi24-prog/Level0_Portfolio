@@ -11,7 +11,8 @@ body{
 }
 
 :root{
-    --primary-color: #7c3aed;
+    --primary-color: #3B82F6
+    ;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
@@ -152,7 +153,7 @@ body{
 
 /* Project Page CSS  */
 
-.section-container .date{
+.project-container .date{
     display: block;
     text-align: center;
     margin-bottom: 1rem;
@@ -167,3 +168,11 @@ body{
     margin: inherit;
     margin: 1rem;
 }
+
+.project-container{
+    padding: 1rem;    
+    border-radius: 1rem;
+    margin: 0 14rem;
+}
+
+/* blog css  */
