@@ -40,7 +40,7 @@ body{
 }
 
 .container{
-    margin: 0rem 8rem;
+    margin: 0 7%;
     
 }
 
@@ -51,7 +51,8 @@ body{
 
 .nav-items{
     color: white;
-    text-align: right;  
+    padding: -1rem;  
+    text-align: right;
 }
 
 
@@ -87,7 +88,7 @@ body{
 .section-container{
     padding: 1rem;    
     border-radius: 1rem;
-    margin: 0 8rem;
+    margin: 0 7%;
 }
 
 .grey-back{
@@ -172,7 +173,7 @@ body{
 .project-container{
     padding: 1rem;    
     border-radius: 1rem;
-    margin: 0 14rem;
+    margin: 0 7%;
 }
 
 /* blog css  */
